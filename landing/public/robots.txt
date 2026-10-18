@@ -1,0 +1,5 @@
+# robots.txt for C12 Evidence Assistant Landing Page
+User-agent: *
+Allow: /
+
+Sitemap: https://c12-evidence.example.com/sitemap.xml

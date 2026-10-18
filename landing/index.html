@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>C12 Evidence Assistant | AI-Assisted Review Workspace for Damaged-Product Claims</title>
+    
+    <!-- Inline Theme Script to Prevent Flash and Ensure Light Default -->
+    <script>
+      (function() {
+        try {
+          var t = localStorage.getItem('c12_theme');
+          if (t === 'dark') {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="An AI-assisted review workspace for damaged-product claims. Summarises photos and complaints, separates allegations from visual observations, flags uncertainties, and leaves decisions to human reviewers."
+    />
+    <meta name="keywords" content="damaged product claims, marketplace support, evidence assistant, claim triage, human in the loop, logistics dispute, return review" />
+    <meta name="author" content="C12 Support Intelligence Systems" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="C12 Evidence Assistant | Separate Claims from Evidence" />
+    <meta
+      property="og:description"
+      content="An AI-assisted review workspace for marketplace claims. Flags ambiguities, structures observations, and enforces human reviewer confirmation."
+    />
+    <meta property="og:site_name" content="C12 Evidence Assistant" />
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="C12 Evidence Assistant | Damaged Product Claim Review" />
+    <meta
+      name="twitter:description"
+      content="An AI-assisted review workspace for marketplace claims. Never auto-approves refunds. Human reviewer always confirms."
+    />
+    
+    <!-- Modern Typography Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- JSON-LD Structured Data Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "C12 Evidence Assistant",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web-based",
+      "description": "An AI-assisted review workspace for damaged-product marketplace claims. Summarises photos and complaints, flags uncertainties, and leaves resolution decisions to human reviewers.",
+      "offers": {
+        "@type": "Offer",
+        "description": "Pilot Early Access",
+        "price": "0",
+        "priceCurrency": "EUR"
+      },
+      "featureList": [
+        "Fact vs Allegation Separation",
+        "Ambiguity & Uncertainty Flagging",
+        "Human-in-the-Loop Confirmation Gate",
+        "Exact Customer Quote Attribution",
+        "One-Click Evidence Request Generation",
+        "Audit Trail & Tamper-Evident Logs"
+      ]
+    }
+    </script>
+  </head>
+  <body class="bg-white dark:bg-slate-900 transition-colors">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
